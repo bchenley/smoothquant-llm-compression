@@ -175,3 +175,4 @@ cython_debug/
 .vscode/
 __pycache__/
 *.ipynb_checkpoints/
+results/
