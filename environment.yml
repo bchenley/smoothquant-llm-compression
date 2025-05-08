@@ -1,0 +1,25 @@
+name: smoothquant
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
+  - datasets
+  - evaluate
+  - accelerate
+  - onnxruntime
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - numpy
+  - jupyterlab
+  - pip:
+    - torchinfo
+  - pip:
+      - torchinfo
+      - git+https://github.com/mit-han-lab/smoothquant.git
